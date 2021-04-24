@@ -1,0 +1,2 @@
+# MinimChat
+Minimalistic Chat webapp
