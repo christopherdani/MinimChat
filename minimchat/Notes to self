@@ -1,0 +1,5 @@
+May 2:
+    - Learned that a form can't have a form inside of it, otherwise will cause an error
+        - handleSend in InputBox wasn't getting called because of this error. The preventDefault() was never called.
+    - Learning what useState is... Still to implement actually sending messages.
+    - Looking into what server to use/host this with. Maybe amazon's lightsail?

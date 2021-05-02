@@ -1,6 +1,6 @@
-import Button from './Components/Button'
-import ChatBox from './Components/ChatBox';
-import Header from './Components/Header'
+
+import ChatBox from './Components/ChatBox.jsx';
+import Header from './Components/Header.jsx'
 
 export const App = () => {
   return (
