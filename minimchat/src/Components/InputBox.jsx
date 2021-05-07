@@ -1,8 +1,7 @@
 //import Button from './Button.jsx'
 import {useState} from 'react'
-import Message from './Message.jsx'
 
-const InputBox = () => {
+const InputBox = ({onAdd}) => {
     const [msg, setMsg] = useState('');
 
     const handleSend = (e) => {
@@ -12,10 +11,8 @@ const InputBox = () => {
         const text = msg.trim();
 
         if (msg.length > 0) {
-            <Message userName='me' msg={text} />
+            onAdd(text);
         }
-        //console.log(msg + ' by ' + userName);
-        //<Message userName={userName} msg={msg} />
     }
     const handleChange = (event) => {
         setMsg(event.target.value);
